@@ -63,4 +63,3 @@ python main.py --model xgboost
 ## Results
 
 Results (JSON and Plots) are saved in the `results/` directory, organized by model type.
-# SVM-Random-Forest-and-Gradient-Boosted-Tree-Based-Breast-Cancer-Diagnosis
