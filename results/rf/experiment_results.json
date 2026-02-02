@@ -1,0 +1,287 @@
+{
+  "model_type": "rf",
+  "fscores": {
+    "50-50": {
+      "indices": [
+        5,
+        2,
+        1,
+        6,
+        0,
+        7,
+        3,
+        4,
+        8
+      ],
+      "scores": [
+        1.9397488798717655,
+        1.7550828822078728,
+        1.5735040640629263,
+        1.1635852038106638,
+        1.1491775174524337,
+        0.9348690878903587,
+        0.6744745086828581,
+        0.6501040810604662,
+        0.17499394685449032
+      ]
+    },
+    "70-30": {
+      "indices": [
+        5,
+        2,
+        1,
+        6,
+        0,
+        7,
+        3,
+        4,
+        8
+      ],
+      "scores": [
+        1.929214651888298,
+        1.8395119270656293,
+        1.7166870508780327,
+        1.1449562451950106,
+        1.0402505590038327,
+        0.8420095962587015,
+        0.7745229829410235,
+        0.7655415078440289,
+        0.16902773061595486
+      ]
+    },
+    "80-20": {
+      "indices": [
+        5,
+        2,
+        1,
+        6,
+        0,
+        7,
+        3,
+        4,
+        8
+      ],
+      "scores": [
+        1.9214511504945677,
+        1.8967535709774137,
+        1.7790021413621653,
+        1.2160281355102687,
+        1.0729521957688821,
+        0.9070462839337651,
+        0.7949124793376501,
+        0.7861136330965391,
+        0.1753748643364704
+      ]
+    }
+  },
+  "accuracies": {
+    "50-50": {
+      "1": 92.39766081871345,
+      "2": 96.19883040935673,
+      "3": 96.78362573099415,
+      "4": 97.36842105263158,
+      "5": 97.6608187134503,
+      "6": 97.36842105263158,
+      "7": 97.6608187134503,
+      "8": 97.6608187134503,
+      "9": 97.6608187134503
+    },
+    "70-30": {
+      "1": 92.19512195121952,
+      "2": 96.09756097560975,
+      "3": 97.5609756097561,
+      "4": 97.5609756097561,
+      "5": 98.04878048780488,
+      "6": 98.04878048780488,
+      "7": 98.53658536585365,
+      "8": 99.02439024390245,
+      "9": 99.02439024390245
+    },
+    "80-20": {
+      "1": 94.16058394160584,
+      "2": 94.8905109489051,
+      "3": 97.08029197080292,
+      "4": 97.08029197080292,
+      "5": 97.8102189781022,
+      "6": 97.08029197080292,
+      "7": 97.8102189781022,
+      "8": 98.54014598540147,
+      "9": 97.8102189781022
+    }
+  },
+  "model5_metrics": {
+    "50-50": {
+      "accuracy": 97.6608187134503,
+      "sensitivity": 96.66666666666667,
+      "specificity": 98.1981981981982,
+      "ppv": 96.66666666666667,
+      "npv": 98.1981981981982,
+      "f1": 0.9666666666666667,
+      "tp": 116,
+      "tn": 218,
+      "fp": 4,
+      "fn": 4
+    },
+    "70-30": {
+      "accuracy": 98.04878048780488,
+      "sensitivity": 98.61111111111111,
+      "specificity": 97.74436090225564,
+      "ppv": 95.94594594594594,
+      "npv": 99.23664122137404,
+      "f1": 0.9726027397260274,
+      "tp": 71,
+      "tn": 130,
+      "fp": 3,
+      "fn": 1
+    },
+    "80-20": {
+      "accuracy": 97.8102189781022,
+      "sensitivity": 97.91666666666666,
+      "specificity": 97.75280898876404,
+      "ppv": 95.91836734693877,
+      "npv": 98.86363636363636,
+      "f1": 0.9690721649484536,
+      "tp": 47,
+      "tn": 87,
+      "fp": 2,
+      "fn": 1
+    }
+  },
+  "best_params": {
+    "50-50_model1": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "50-50_model2": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "50-50_model3": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "50-50_model4": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "50-50_model5": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "50-50_model6": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "50-50_model7": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "50-50_model8": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "50-50_model9": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "70-30_model1": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "70-30_model2": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "70-30_model3": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "70-30_model4": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "70-30_model5": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "70-30_model6": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "70-30_model7": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "70-30_model8": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "70-30_model9": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "80-20_model1": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "80-20_model2": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "80-20_model3": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "80-20_model4": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "80-20_model5": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "80-20_model6": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "80-20_model7": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "80-20_model8": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    },
+    "80-20_model9": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "class_weight": "balanced"
+    }
+  }
+}
