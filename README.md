@@ -25,7 +25,7 @@ project/
 │   └── utils/                        # Shared utilities (data loader, metrics, config)
 ├── main.py                           # Unified entry point for experiments
 ├── requirements.txt                  # Python dependencies
-└── project_paper.pdf                 # Project report
+└── paper.pdf                         # Project report
 ```
 
 ## Setup
