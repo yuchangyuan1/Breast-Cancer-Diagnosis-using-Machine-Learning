@@ -10,7 +10,7 @@ The project includes feature selection using F-score, experimental evaluation on
 ## Project Structure
 
 ```
-project/
+Breast-Cancer-Diagnosis-using-Machine-Learning/
 ├── data/
 │   └── breast-cancer-wisconsin.data  # Raw dataset
 ├── results/                          # Generated plots and JSON results
